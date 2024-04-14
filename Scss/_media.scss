@@ -1,0 +1,42 @@
+@media (min-width: 1024px) {
+	.main_wrapper {
+		header {
+			#hero {
+				h1 {
+					font-size: 2.5em;
+				}
+				p {
+					font-size: 1.25rem;
+				}
+				a {
+					padding: 1.5rem 0;
+				}
+			}
+		}
+		#stats {
+			flex-direction: row;
+			justify-content: space-evenly;
+			section {
+				display: flex;
+				flex-direction: column;
+				justify-content: start;
+				img {
+					width: 56px;
+					height: 56px;
+					margin: 0;
+				}
+			}
+		}
+		main {
+			article {
+				.content {
+					flex-direction: row-reverse;
+					img {
+						flex-shrink: 1;
+						max-width: none;
+					}
+				}
+			}
+		}
+	}
+}
